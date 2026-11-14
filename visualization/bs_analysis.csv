@@ -1,0 +1,12 @@
+type,bs,IOPS,BW_MBps,lat_avg_us
+seq_read,4K,143658,587,6.0
+seq_read,16K,38192,627,23.2
+seq_read,64K,9624,630,91.8
+seq_read,256K,2299,601,386.2
+seq_read,1M,396,418,2331
+
+rand_read,4K,3281,13.4,300.6
+rand_read,16K,3637,59.6,269.2
+rand_read,64K,2581,169,372.7
+rand_read,256K,1235,324,757.8
+rand_read,1M,381,402,2429

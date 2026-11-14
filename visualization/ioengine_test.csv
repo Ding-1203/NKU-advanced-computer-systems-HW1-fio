@@ -1,0 +1,9 @@
+job_name,groupid,jobs,subjobs,rw,bs,numjobs,iodepth,ioengine,iops,bw_MBps,lat_avg_us,clat_avg_us
+seq_read_psync,0,1,1,read,4096B,1,1,psync,147000.0,601.882624,5.90991,5.88307
+seq_read_libaio,1,1,1,read,4096B,1,1,libaio,138000.0,566.23104,6.40493,0.5487000000000001
+seq_read_io_uring,2,1,1,read,4096B,1,1,io_uring,151000.0,616.562688,5.792350000000001,1.79605
+seq_read_mmap,3,1,1,read,4096B,1,1,mmap,2142000.0,8771.33824,0.14678,0.12453
+rand_read_psync,4,1,1,randread,4096B,1,1,psync,4976.0,20.342374399999997,197.37,197.22
+rand_read_libaio,5,1,1,randread,4096B,1,1,libaio,4927.0,20.1326592,200.34,1.79625
+rand_read_io_uring,6,1,1,randread,4096B,1,1,io_uring,4988.0,20.447232,198.03,180.31404999999998
+rand_read_mmap,7,1,1,randread,4096B,1,1,mmap,5295.0,21.7055232,186.29,186.15

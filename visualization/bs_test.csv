@@ -1,0 +1,11 @@
+job_name,groupid,jobs,subjobs,rw,bs,numjobs,iodepth,ioengine,iops,bw_MBps,lat_avg_us,clat_avg_us
+seq_read_bs_4k,0,1,1,read,4096B,1,1,psync,143000.0,587.20256,6.0475,6.01985
+seq_read_bs_16k,1,1,1,read,16.0KiB,1,1,psync,38300.0,627.048448,23.207150000000002,23.171529999999997
+seq_read_bs_64k,2,1,1,read,64.0KiB,1,1,psync,9616.0,630.194176,91.83,91.76
+seq_read_bs_256k,3,1,1,read,256KiB,1,1,psync,2291.0,600.8340479999999,386.35,386.17
+seq_read_bs_1m,4,1,1,read,1024KiB,1,1,psync,398.0,418.381824,2331.64,2331.35
+rand_read_bs_4k,5,1,1,randread,4096B,1,1,psync,3280.0,13.4217728,300.76,300.6
+rand_read_bs_16k,6,1,1,randread,16.0KiB,1,1,psync,3635.0,59.55911679999999,269.34,269.17
+rand_read_bs_64k,7,1,1,randread,64.0KiB,1,1,psync,2580.0,168.82073599999998,372.9,372.73
+rand_read_bs_256k,8,1,1,randread,256KiB,1,1,psync,1235.0,324.009984,757.99,757.78
+rand_read_bs_1m,9,1,1,randread,1024KiB,1,1,psync,383.0,401.604608,2429.56,2429.24
